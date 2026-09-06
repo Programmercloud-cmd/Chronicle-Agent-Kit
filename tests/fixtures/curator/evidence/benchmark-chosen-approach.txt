@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Representative benchmark under the agreed workload shows sparse indexing meets recall and memory bounds whereas dense retrieval exceeds the hard memory ceiling. Owner explicitly selects sparse indexing as the new main approach and replaces the dense implementation plan. Implementation is not complete; there is no parallel enduring line of inquiry.
+Acceptance scope: Owner accepts sparse direction selection, not its completed delivery.

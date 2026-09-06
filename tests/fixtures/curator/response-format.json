@@ -1,0 +1,36 @@
+{
+  "description": "Component 2 test adapter only, not a Core record or workflow disposition schema. Return a JSON array containing one object per input fixture id. No Markdown fence.",
+  "required_fields": {
+    "id": "Exact fixture id",
+    "primary_classification": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ],
+    "established_fact": "Non-empty bounded established fact; explicitly none for unsupported claims",
+    "rationale": "Non-empty consequence/scope/replay reasoning",
+    "evidence_references": "Array of source IDs from input.packet.evidence (empty if absent)",
+    "unresolved_questions": "Array of non-empty questions; [] if none",
+    "companion_actions": "Array of {action: current_update|roadmap_update, reason: non-empty concrete change}; [] if none",
+    "candidate_history": "null for non-candidates; otherwise {branch_action: existing|new, branch_reason: non-empty string, parents: [known milestone IDs], semantic_relations: [{type: supersedes|disproves|reverts_to|related_to, target: known older milestone ID, reason: non-empty string}]}",
+    "disposition_handling": [
+      "new_assessment",
+      "reuse_prior",
+      "reconcile_pending",
+      "blocked_inconsistent",
+      "reconsider",
+      "aggregate_new_claim"
+    ],
+    "main_agent_note": "Non-empty remaining responsibility or decision issue; never claim self-approval/publication"
+  },
+  "rules": [
+    "Exactly one primary classification per case; no self-approval or writing.",
+    "Use only supplied evidence and known history IDs; identify missing sources/context explicitly.",
+    "Workflow handling is a recommendation, not a new disposition.",
+    "Companions may recommend Current/roadmap only; primary work need not be repeated as a companion.",
+    "For pending/inconsistent cases include unresolved reconciliation questions.",
+    "For explicit reconsideration name the prior disposition in rationale or main_agent_note; for aggregate name contributing packet IDs there."
+  ]
+}

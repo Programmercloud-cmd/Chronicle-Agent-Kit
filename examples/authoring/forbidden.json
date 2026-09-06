@@ -1,0 +1,173 @@
+[
+  {
+    "id": "commit",
+    "packet_id": "forbidden-commit",
+    "producer": "human",
+    "claim": "Promote because a commit exists",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: a commit exists"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "line-count",
+    "packet_id": "forbidden-line-count",
+    "producer": "human",
+    "claim": "Promote because many lines changed",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: many lines changed"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "developer-complete",
+    "packet_id": "forbidden-developer-complete",
+    "producer": "human",
+    "claim": "Promote because developer work completed",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: developer work completed"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "critic-accept",
+    "packet_id": "forbidden-critic-accept",
+    "producer": "human",
+    "claim": "Promote because a critic returned ACCEPT",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: a critic returned ACCEPT"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "tests-pass",
+    "packet_id": "forbidden-tests-pass",
+    "producer": "human",
+    "claim": "Promote because tests passed",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: tests passed"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "benchmark",
+    "packet_id": "forbidden-benchmark",
+    "producer": "human",
+    "claim": "Promote because a benchmark ran",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: a benchmark ran"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "git-branch",
+    "packet_id": "forbidden-git-branch",
+    "producer": "human",
+    "claim": "Promote because a Git branch was created",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: a Git branch was created"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "documentation",
+    "packet_id": "forbidden-documentation",
+    "producer": "human",
+    "claim": "Promote because documentation changed",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: documentation changed"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "elapsed-time",
+    "packet_id": "forbidden-elapsed-time",
+    "producer": "human",
+    "claim": "Promote because time elapsed",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: time elapsed"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "valid-hash",
+    "packet_id": "forbidden-valid-hash",
+    "producer": "human",
+    "claim": "Promote because an evidence hash validates",
+    "context": "No new project-level consequence, operational change or useful unrecorded subordinate conclusion is established.",
+    "evidence": [
+      "Trigger observation only: an evidence hash validates"
+    ],
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "reject",
+    "rationale": "The trigger alone does not answer the returning-owner question; retain the decision without a Chronicle write."
+  },
+  {
+    "id": "irrelevant-evidence",
+    "packet_id": "forbidden-irrelevant",
+    "producer": "CI",
+    "claim": "The importer preserves identifiers end to end",
+    "context": "The new input-schema check is useful as a bounded debugging result, but it establishes only that JSON contains a tokens array. Downstream conversion/storage and leading-zero preservation were never tested. No separate narrow event proposal has been prepared.",
+    "evidence": [
+      "Actual SHA-256-bound report from parsing {\"tokens\":[\"007\"]} and checking Array.isArray(tokens); it cannot establish that a downstream importer preserves 007."
+    ],
+    "classification": "ENGINEERING_EVENT",
+    "decision": "defer",
+    "rationale": "A new useful input-schema result can merit a subordinate event, but the requested end-to-end claim is deferred. Prepare a separately scoped event proposal or obtain actual end-to-end evidence; no milestone is authorized.",
+    "unresolved_questions": "Where is the end-to-end conversion/storage observation proving identifier preservation? The input-schema report does not test those operations."
+  },
+  {
+    "id": "timestamp-unknown",
+    "packet_id": "forbidden-timestamp",
+    "producer": "human",
+    "claim": "An important historical capability was accepted on 2024-03-12",
+    "context": "A synthetic signed acceptance diary establishes an important capability and its owner-facing consequence, but records only the calendar date. No exact acceptance instant exists. Do not relabel it as new acceptance.",
+    "evidence": [
+      "Synthetic diary explicitly records date precision only."
+    ],
+    "classification": "MILESTONE_CANDIDATE",
+    "decision": "defer",
+    "rationale": "Significance may warrant a candidate, but publication is deferred until an actual occurrence source meets Core precision; never invent seconds.",
+    "unresolved_questions": "What retained source establishes the historical acceptance instant with actual seconds and timezone? The date-only diary does not; publication remains deferred."
+  },
+  {
+    "id": "revision-misuse",
+    "packet_id": "forbidden-revision",
+    "producer": "investigator",
+    "claim": "Rewrite the old accepted quantity conclusion as rejected now that identifiers need leading zeroes",
+    "context": "The original quantity claim was correctly recorded and remains valid for quantities. New identifier requirements change direction, not the historical record.",
+    "evidence": [
+      "New identifier requirement and observed Number(\"007\") = 7; no old clerical error."
+    ],
+    "classification": "BRANCH_OR_DIRECTION_CHANGE",
+    "decision": "reject",
+    "rationale": "Reject the requested revision. A later scoped milestone/relation can describe changed direction after a new prepared proposal; this case publishes nothing."
+  }
+]

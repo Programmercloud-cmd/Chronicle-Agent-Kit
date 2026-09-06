@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Previously reviewed measurements are unchanged. Signed product requirement now limits deployment to 512 MiB devices. Owner explicitly selects sparse index based on those measurements and asks to reconsider DSP-REJECT-CHOICE. No separate long-lived exploration is planned and delivery remains unfinished.
+Acceptance scope: Owner chooses changed target approach, not delivery acceptance.

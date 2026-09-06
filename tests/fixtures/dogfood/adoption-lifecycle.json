@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "historical": {
+    "version": "0.1.0-rc.1",
+    "status": "review-candidate",
+    "metadata_sha256": "33143238c743277a390a3fe5bef592e2e98f33ade33d93bf15b4ebb8dcda3f25",
+    "content_sha256": "dc469ff1d861bf4ccf7c39e6ac6fa3a264f27c919a55925706dbc616bc6bcb6c"
+  },
+  "current": {
+    "candidate": {
+      "version": "0.1.0",
+      "status": "review-candidate",
+      "metadata_sha256": "6dfda3e29f691cf0029f0dc8af239ec9f0413cef0b118aad7499d5cadf657a78",
+      "content_sha256": "4e6f8e93ce8208fa3dac087661fb267f9a035d01e97f6614d79413a96c50cc0d"
+    },
+    "stable": {
+      "version": "0.1.0",
+      "status": "stable",
+      "metadata_sha256": "329a591f44b8edfcdca5b59018063d68cbf3fbb09edd3205049bd90dabd59251",
+      "content_sha256": "4e6f8e93ce8208fa3dac087661fb267f9a035d01e97f6614d79413a96c50cc0d"
+    }
+  },
+  "baseline": {
+    "path": "dev/evidence/component-7/baseline.json",
+    "sha256": "413b42b2cb004a5136269b854bb428113825e93aca299e78fb35fa4e93044fda",
+    "file_count": 7957
+  },
+  "accepted_transition": {
+    "path": "dev/evidence/stable-release-correction/critic/verdict.json",
+    "sha256": "d0bf81d01b21620ac906b53925e82919449f6fc9bc65f83bf24b626249026a86"
+  }
+}

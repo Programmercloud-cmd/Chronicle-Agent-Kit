@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: CI.
+Build report records a successful type check and stylesheet build. It contains no offline execution, recovery exercise or release-owner acceptance. Its SHA-256 matches these exact bytes.
+Acceptance scope: No project-level acceptance is asserted.

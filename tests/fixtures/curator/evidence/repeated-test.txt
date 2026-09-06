@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: CI.
+The same baseline acceptance test passed with the same inputs and result. It confirms the already accepted single-machine behavior without expanded scope.
+Acceptance scope: No project-level acceptance is asserted.

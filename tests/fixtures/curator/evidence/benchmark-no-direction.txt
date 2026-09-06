@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: CI.
+Representative benchmark estimates backend A 2% faster than B, within the declared equivalence margin. Owner retains the existing dense approach and operating plan. Preserve the measured result as useful subordinate evidence; no hypothesis of project significance was resolved.
+Acceptance scope: No project-level acceptance is asserted.

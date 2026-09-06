@@ -1,0 +1,16 @@
+{
+  "packet_id": "lumen-trim-observation-1",
+  "producer": "specimen assistant",
+  "project": "Lumen specimen index (synthetic teaching project)",
+  "claim": "The explicitly selected label \" iris \" trims to \"iris\".",
+  "newly_supplied": "One useful diagnostic observation worth retaining for planned specimen ingestion.",
+  "prior_context": {
+    "history": "No milestones or engineering events yet.",
+    "current": "Absent; no accepted project capability exists.",
+    "roadmap": "Initialized empty plan; unchanged by this observation.",
+    "dispositions": "No prior packet or disposition for this observation."
+  },
+  "evidence": "The exercise executes this exact JavaScript expression and captures the original JSON report bytes, result and machine observation time. The result supports only this input.",
+  "acceptance": "Collection steward acknowledges retaining a subordinate observation; no capability, gate, or direction is accepted.",
+  "limitations": "Synthetic example only. No production ingestion claim, statistical coverage or historical timestamp inference."
+}

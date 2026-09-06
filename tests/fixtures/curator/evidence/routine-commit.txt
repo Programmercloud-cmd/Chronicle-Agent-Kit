@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: other_framework.
+Commit notes correct one comment typo. Behavior and operational status unchanged. Nothing useful beyond the existing baseline conclusion.
+Acceptance scope: No project-level acceptance is asserted.

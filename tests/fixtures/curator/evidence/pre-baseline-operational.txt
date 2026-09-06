@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Coordinator confirms hardware will arrive later than planned; initial evaluation roadmap should be marked blocked. No capability has been accepted and no human-facing milestone exists.
+Acceptance scope: No project-level acceptance is asserted.

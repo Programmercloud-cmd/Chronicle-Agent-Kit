@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: other_framework.
+Developer creates a short-lived Git branch to edit a comment. No new project direction, meaningful divergence, capability, observation or operational change is established.
+Acceptance scope: No project-level acceptance is asserted.

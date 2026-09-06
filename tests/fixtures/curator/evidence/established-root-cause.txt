@@ -1,0 +1,5 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: investigator.
+Incident investigator reproduced loss only with cursor reuse, isolated the trigger and confirmed removal prevents it across controlled replay cases. Incident owner accepts the causal conclusion for the multi-shard outage. This resolves the project's principal unknown; a production fix and its acceptance remain outstanding. No approach change is chosen.
+Acceptance scope: Root cause established; fix and multi-shard capability not accepted.
+The incident coordinator confirms Current should now track the established cursor-reuse cause and move active work from root-cause isolation to implementation and validation of a fix. Preserve MS-BASE; the fix and multi-shard capability remain unaccepted.

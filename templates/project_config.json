@@ -1,0 +1,7 @@
+{
+  "format_version": 1,
+  "dataset_path": "<choose-dataset-path>",
+  "dataset_tracking": "<choose-tracked-or-local>",
+  "workflow_path": "<choose-persistent-workflow-path>",
+  "workflow_tracking": "<choose-tracked-or-local>"
+}

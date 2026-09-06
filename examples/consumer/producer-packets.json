@@ -1,0 +1,127 @@
+[
+  {
+    "packet_id": "lens-repeat-1",
+    "producer": "human developer",
+    "project": "Lumen specimen index",
+    "claim": "Repeated the already established label trimming check; it still returns iris.",
+    "newly_supplied": "Another observation of the same input and result; no new scope or operational change.",
+    "context": {
+      "previous_conclusion": "Label trimming for the explicit input \" iris \" was already retained in an engineering event.",
+      "current": "Absent; no accepted project capability yet.",
+      "roadmap": "Unchanged sample collection plan.",
+      "prior_dispositions": "The original scoped conclusion has an author disposition and verified publication receipt; this new run adds no consequence."
+    },
+    "evidence": [
+      {
+        "source": "synthetic report supplied with this teaching packet",
+        "observation": "\" iris \".trim() === \"iris\"",
+        "limitation": "Only this repeated input; no gate or capability acceptance."
+      }
+    ],
+    "acceptance": {
+      "actor": "collection steward",
+      "scope": "Acknowledges repeated result only; no project-level acceptance."
+    },
+    "timestamp_provenance": "No historical record is requested; any recording timestamp must come from a machine clock."
+  },
+  {
+    "packet_id": "lens-repeat-2",
+    "producer": "generic coding agent",
+    "project": "Lumen specimen index",
+    "claim": "Repeated the already established label trimming check; it still returns iris.",
+    "newly_supplied": "Another observation of the same input and result; no new scope or operational change.",
+    "context": {
+      "previous_conclusion": "Label trimming for the explicit input \" iris \" was already retained in an engineering event.",
+      "current": "Absent; no accepted project capability yet.",
+      "roadmap": "Unchanged sample collection plan.",
+      "prior_dispositions": "The original scoped conclusion has an author disposition and verified publication receipt; this new run adds no consequence."
+    },
+    "evidence": [
+      {
+        "source": "synthetic report supplied with this teaching packet",
+        "observation": "\" iris \".trim() === \"iris\"",
+        "limitation": "Only this repeated input; no gate or capability acceptance."
+      }
+    ],
+    "acceptance": {
+      "actor": "collection steward",
+      "scope": "Acknowledges repeated result only; no project-level acceptance."
+    },
+    "timestamp_provenance": "No historical record is requested; any recording timestamp must come from a machine clock."
+  },
+  {
+    "packet_id": "lens-repeat-3",
+    "producer": "developer/critic gauntlet",
+    "project": "Lumen specimen index",
+    "claim": "Repeated the already established label trimming check; it still returns iris.",
+    "newly_supplied": "Another observation of the same input and result; no new scope or operational change.",
+    "context": {
+      "previous_conclusion": "Label trimming for the explicit input \" iris \" was already retained in an engineering event.",
+      "current": "Absent; no accepted project capability yet.",
+      "roadmap": "Unchanged sample collection plan.",
+      "prior_dispositions": "The original scoped conclusion has an author disposition and verified publication receipt; this new run adds no consequence."
+    },
+    "evidence": [
+      {
+        "source": "synthetic report supplied with this teaching packet",
+        "observation": "\" iris \".trim() === \"iris\"",
+        "limitation": "Only this repeated input; no gate or capability acceptance."
+      }
+    ],
+    "acceptance": {
+      "actor": "collection steward",
+      "scope": "Acknowledges repeated result only; no project-level acceptance."
+    },
+    "timestamp_provenance": "No historical record is requested; any recording timestamp must come from a machine clock."
+  },
+  {
+    "packet_id": "lens-repeat-4",
+    "producer": "investigator/research task",
+    "project": "Lumen specimen index",
+    "claim": "Repeated the already established label trimming check; it still returns iris.",
+    "newly_supplied": "Another observation of the same input and result; no new scope or operational change.",
+    "context": {
+      "previous_conclusion": "Label trimming for the explicit input \" iris \" was already retained in an engineering event.",
+      "current": "Absent; no accepted project capability yet.",
+      "roadmap": "Unchanged sample collection plan.",
+      "prior_dispositions": "The original scoped conclusion has an author disposition and verified publication receipt; this new run adds no consequence."
+    },
+    "evidence": [
+      {
+        "source": "synthetic report supplied with this teaching packet",
+        "observation": "\" iris \".trim() === \"iris\"",
+        "limitation": "Only this repeated input; no gate or capability acceptance."
+      }
+    ],
+    "acceptance": {
+      "actor": "collection steward",
+      "scope": "Acknowledges repeated result only; no project-level acceptance."
+    },
+    "timestamp_provenance": "No historical record is requested; any recording timestamp must come from a machine clock."
+  },
+  {
+    "packet_id": "lens-repeat-5",
+    "producer": "CI/test result",
+    "project": "Lumen specimen index",
+    "claim": "Repeated the already established label trimming check; it still returns iris.",
+    "newly_supplied": "Another observation of the same input and result; no new scope or operational change.",
+    "context": {
+      "previous_conclusion": "Label trimming for the explicit input \" iris \" was already retained in an engineering event.",
+      "current": "Absent; no accepted project capability yet.",
+      "roadmap": "Unchanged sample collection plan.",
+      "prior_dispositions": "The original scoped conclusion has an author disposition and verified publication receipt; this new run adds no consequence."
+    },
+    "evidence": [
+      {
+        "source": "synthetic report supplied with this teaching packet",
+        "observation": "\" iris \".trim() === \"iris\"",
+        "limitation": "Only this repeated input; no gate or capability acceptance."
+      }
+    ],
+    "acceptance": {
+      "actor": "collection steward",
+      "scope": "Acknowledges repeated result only; no project-level acceptance."
+    },
+    "timestamp_provenance": "No historical record is requested; any recording timestamp must come from a machine clock."
+  }
+]

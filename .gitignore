@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Temporary Kit engineering evidence; never part of the consumer payload.
+/dev/evidence/

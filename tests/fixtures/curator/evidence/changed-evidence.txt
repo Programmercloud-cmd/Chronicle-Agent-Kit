@@ -1,0 +1,5 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+A new predeclared representative holdout study, replacing the earlier insufficient sample, demonstrates recall above 0.97 within 512 MiB across all required partitions. Project owner accepts the significant feasibility conclusion and explicitly requests reconsideration of DSP-DEFER-HYP. The chosen approach remains unchanged.
+Acceptance scope: Owner accepts feasibility only; no product gate acceptance.
+The coordinator confirms the operational hypothesis is now established rather than sample-limited, and next work changes from obtaining holdout evidence to planning end-to-end capability validation. Keep Current anchored at MS-BASE; this does not accept product delivery.

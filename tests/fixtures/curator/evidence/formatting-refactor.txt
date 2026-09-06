@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: CI.
+Formatter and rename run completed. Observable behavior, architecture, performance and work status remain unchanged; no new conclusion.
+Acceptance scope: No project-level acceptance is asserted.

@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Only Markdown wrapping and heading levels changed in the resubmitted summary. Stable packet ID, source facts, acceptance scope and relevant context match DSP-APPLIED, whose immutable original bundle and successful receipt remain intact.
+Acceptance scope: Same previously accepted offline scope.

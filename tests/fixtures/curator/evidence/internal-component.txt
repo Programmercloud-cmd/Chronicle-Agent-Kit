@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+The consumer maintainer accepts a parser helper against its narrow interface. It does not alter shipped capability, chosen architecture, project phase or operational plan. Keep the result as new subordinate implementation evidence.
+Acceptance scope: No project-level acceptance is asserted.

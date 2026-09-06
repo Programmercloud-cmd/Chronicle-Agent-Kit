@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Controlled production replay demonstrates streaming cannot preserve required ordering at the target load. Owner accepts this evidence and chooses to return to the older batch design MS-BASE, replacing the MS-STREAM direction. The roadmap must reflect that choice. Returning design implementation remains to be restored.
+Acceptance scope: Return decision accepted; restored implementation acceptance is not claimed.

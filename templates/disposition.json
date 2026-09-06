@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "id": "DSP-<tool-generated-UUID>",
+  "recorded_at": "<machine-RFC3339-time>",
+  "actor": "<responsible-human-or-main-agent>",
+  "inputs": [
+    {
+      "packet_id": "<stable-packet-id>",
+      "summary": {"path": "<workflow-relative-summary>", "sha256": "<exact-SHA256>"},
+      "evidence": []
+    }
+  ],
+  "context_digest": "<exact-context.json-SHA256>",
+  "recommendation_digest": "<exact-recommendation.md-SHA256>",
+  "classification": "<one-primary-classification>",
+  "decision": "author",
+  "reason": "<responsible-decision-and-scope>",
+  "proposal_digest": "<exact-prepared-proposal.json-SHA256>"
+}

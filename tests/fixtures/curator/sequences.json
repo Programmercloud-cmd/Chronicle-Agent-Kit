@@ -1,0 +1,48 @@
+[
+  {
+    "id": "iterations-aggregate-replay",
+    "description": "Zero automatic milestones from iterations; one new capability candidate; replay adds none. Repeated step IDs represent additional runs of the same assessed type, not extra expected cases.",
+    "steps": [
+      "routine-commit",
+      "formatting-refactor",
+      "repeated-test",
+      "intermediate-acceptance",
+      "internal-component",
+      "benchmark-no-direction",
+      "repeated-test",
+      "repeated-test",
+      "accumulated-promotion",
+      "accumulated-replay"
+    ],
+    "expected_history_candidates": 1,
+    "automatic_promotions": 0,
+    "review_note": "The new aggregate packet contributes already recorded subordinate IDs. Its own post-publication replay reuses DSP-AGGREGATE. Only the aggregate acceptance creates a new recommendation; existing events are not duplicated."
+  },
+  {
+    "id": "replay-preserves-workflow-state",
+    "description": "Replays do not reverse dispositions or mistake pending for applied.",
+    "steps": [
+      "replay-applied",
+      "replay-formatting",
+      "replay-no_update",
+      "replay-defer",
+      "replay-reject",
+      "pending-publication",
+      "inconsistent-artifacts"
+    ],
+    "expected_history_candidates": 0,
+    "automatic_promotions": 0,
+    "review_note": "Same NO_CHRONICLE_UPDATE label has distinct reuse/reconciliation obligations; never create a fresh no_update to replace defer, reject, or author."
+  },
+  {
+    "id": "substantive-reconsideration",
+    "description": "Evidence and context changes independently permit linked new assessments.",
+    "steps": [
+      "changed-evidence",
+      "changed-context"
+    ],
+    "expected_history_candidates": 2,
+    "automatic_promotions": 0,
+    "review_note": "Significance comes from source content and changed consequence; digests only bind persisted bytes."
+  }
+]

@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Owner accepts end-to-end resilient import after bounded integrated acceptance proves recovery from partial input and retries across every declared acceptance case. This is a newly accepted project capability beyond prior parser/retry component scopes. Existing EV-A and EV-B remain supporting records; do not recreate them. Roadmap import item is complete and Current now reflects this capability.
+Acceptance scope: Owner accepts integrated resilient import, not merely individual helper correctness.

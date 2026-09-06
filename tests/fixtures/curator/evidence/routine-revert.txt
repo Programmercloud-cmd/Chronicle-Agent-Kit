@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: CI.
+CI catches a timeout regression; maintainer reverts the single tuning commit, restoring the already accepted behavior. The incident is localized and does not change architecture, capability, validated project knowledge or current plan. Retain the new bounded failure/revert result.
+Acceptance scope: No project-level acceptance is asserted.

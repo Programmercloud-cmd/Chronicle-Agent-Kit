@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Release owner signed acceptance of full offline search: indexed archive opens without network, queries complete within the agreed target and recovery survives power loss on all required devices. All declared gate checks and scope are met. Offline delivery is now the accepted project capability, and the roadmap delivery item is complete.
+Acceptance scope: Release owner accepts complete offline delivery gate and adopts it as current state.

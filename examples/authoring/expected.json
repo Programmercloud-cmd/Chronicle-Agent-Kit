@@ -1,0 +1,190 @@
+[
+  {
+    "id": "01-no-update",
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "no_update",
+    "rationale": "No fresh information merits any dataset write.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "02-subordinate-event",
+    "classification": "ENGINEERING_EVENT",
+    "decision": "author",
+    "rationale": "Retain an unlinked test event and evidence; no project-level conclusion.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "03-current-only",
+    "classification": "CURRENT_STATE_UPDATE",
+    "decision": "author",
+    "rationale": "Update operational state and freshness, preserving the accepted milestone.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "04-milestone",
+    "classification": "MILESTONE_CANDIDATE",
+    "decision": "author",
+    "rationale": "A new bounded capability materially changes the teaching project state.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "05-direction",
+    "classification": "BRANCH_OR_DIRECTION_CHANGE",
+    "decision": "author",
+    "rationale": "Create a distinct identifier branch with its first milestone, cross-branch origin and explained related_to relation.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE"
+    ]
+  },
+  {
+    "id": "06-abandoned",
+    "classification": "BRANCH_OR_DIRECTION_CHANGE",
+    "decision": "author",
+    "rationale": "Retain an abandoned milestone and later accepted superseding approach; only the latter becomes Current.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE"
+    ]
+  },
+  {
+    "id": "07-roadmap",
+    "classification": "CURRENT_STATE_UPDATE",
+    "decision": "author",
+    "rationale": "Replace the mutable plan and companion projection/next step; no History record.",
+    "allowed_companions": [
+      "Current",
+      "roadmap"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "08-correction",
+    "classification": "ENGINEERING_EVENT",
+    "decision": "author",
+    "rationale": "Append a guarded clerical_correction revision only; preserve original bytes.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "09-late-evidence",
+    "classification": "ENGINEERING_EVENT",
+    "decision": "author",
+    "rationale": "Append late_attachment revision to the event evidence array; preserve event bytes.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "10-code-change",
+    "classification": "MILESTONE_CANDIDATE",
+    "decision": "author",
+    "rationale": "One bounded capability milestone references actual diff via code_changes and separate acceptance evidence.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "11-duplicate-replay",
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "author",
+    "rationale": "Reuse the verified receipt and disposition; no new records or approval.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ],
+    "disposition_handling": "reuse_prior_author",
+    "decision_note": "Existing original disposition remains author; no new disposition is created by this replay assessment."
+  },
+  {
+    "id": "12-accumulated",
+    "classification": "MILESTONE_CANDIDATE",
+    "decision": "author",
+    "rationale": "Promote one newly accepted aggregate claim without recreating subordinate events.",
+    "allowed_companions": [
+      "Current"
+    ],
+    "forbidden_classifications": [
+      "NO_CHRONICLE_UPDATE",
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ]
+  },
+  {
+    "id": "13-pending",
+    "classification": "NO_CHRONICLE_UPDATE",
+    "decision": "author",
+    "rationale": "No new authoring decision; reconcile original pending bundle and explicitly apply it if all preconditions still match.",
+    "allowed_companions": [],
+    "forbidden_classifications": [
+      "ENGINEERING_EVENT",
+      "CURRENT_STATE_UPDATE",
+      "MILESTONE_CANDIDATE",
+      "BRANCH_OR_DIRECTION_CHANGE"
+    ],
+    "disposition_handling": "reconcile_pending_author",
+    "decision_note": "Existing original disposition remains author; no new disposition is created by this replay assessment."
+  }
+]

@@ -1,0 +1,5 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Project owner closes the six-week multi-shard prototype after accepted reliability study shows unrecoverable corruption under required power-loss cases. This ends a significant attempted capability and records a validated failure. Owner has not selected a successor direction; the operational roadmap was already paused and Current remains the accepted single-machine baseline.
+Acceptance scope: Abandonment and failure conclusion accepted; prototype never became accepted capability.
+Current's hypothesis, active work, next step and blockers remain unchanged; the attempted prototype was already outside active work. No freshness-only update is warranted.

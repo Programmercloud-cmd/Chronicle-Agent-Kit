@@ -1,0 +1,210 @@
+[
+  {
+    "id": "01-no-update",
+    "title": "Repeated status",
+    "packet_id": "teaching-01-no-update",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "Existing conclusion and active work are unchanged; the owner reread the same result.",
+    "evidence": [
+      "No new evidence or context."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "Existing conclusion and active work are unchanged; the owner reread the same result."
+  },
+  {
+    "id": "02-subordinate-event",
+    "title": "Retain a bounded technical check",
+    "packet_id": "teaching-02-subordinate-event",
+    "producer": "CI",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "Before any accepted capability, a parser check confirms that whitespace around one integer is handled. This is useful troubleshooting evidence, not the promised import capability.",
+    "evidence": [
+      "Actual toy check output: Number(\" 7 \") equals 7; timestamp observed after the check."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "Before any accepted capability, a parser check confirms that whitespace around one integer is handled. This is useful troubleshooting evidence, not the promised import capability."
+  },
+  {
+    "id": "03-current-only",
+    "title": "External blocker changes next work",
+    "packet_id": "teaching-03-current-only",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "Current points to accepted single-item parsing. Fixture owner announces that integration sample delivery is blocked; work shifts to documenting sample requirements. Historical capability is unchanged.",
+    "evidence": [
+      "Explicit synthetic owner operational memo; no claim that a capability changed."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "Current points to accepted single-item parsing. Fixture owner announces that integration sample delivery is blocked; work shifts to documenting sample requirements. Historical capability is unchanged."
+  },
+  {
+    "id": "04-milestone",
+    "title": "Bounded batch capability accepted",
+    "packet_id": "teaching-04-milestone",
+    "producer": "CI",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "The synthetic project previously accepted single-item parsing. Its next owner-facing criterion is parsing a three-item batch without loss, now observed and accepted within the fixture scope.",
+    "evidence": [
+      "Actual toy check maps [\"1\",\"2\",\"3\"] to [1,2,3]; observed acceptance time retained. This does not prove a production parser."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "The synthetic project previously accepted single-item parsing. Its next owner-facing criterion is parsing a three-item batch without loss, now observed and accepted within the fixture scope."
+  },
+  {
+    "id": "05-direction",
+    "title": "Preserve exact identifiers on a new line",
+    "packet_id": "teaching-05-direction",
+    "producer": "investigator",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "The numeric path was valid only for quantities. A newly chosen identifier-import line must preserve leading zeroes while quantity work continues independently. This meaningful divergence is explicitly accepted.",
+    "evidence": [
+      "Actual toy check compares Number(\"007\")=7 with identity(\"007\")=\"007\"; new requirement is an explicit synthetic owner decision."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "The numeric path was valid only for quantities. A newly chosen identifier-import line must preserve leading zeroes while quantity work continues independently. This meaningful divergence is explicitly accepted."
+  },
+  {
+    "id": "06-abandoned",
+    "title": "Abandon lossy identifier approach",
+    "packet_id": "teaching-06-abandoned",
+    "producer": "investigator",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "On the existing line, numeric conversion was tried for identifiers. Loss of leading zeroes is now observed, the approach is abandoned, and a later text-preserving approach is accepted. Quantity parsing remains valid within its original scope.",
+    "evidence": [
+      "Actual loss check followed at a later observed instant by exact string-preservation check and bounded acceptance."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "On the existing line, numeric conversion was tried for identifiers. Loss of leading zeroes is now observed, the approach is abandoned, and a later text-preserving approach is accepted. Quantity parsing remains valid within its original scope."
+  },
+  {
+    "id": "07-roadmap",
+    "title": "Reorder future checks",
+    "packet_id": "teaching-07-roadmap",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "Existing Current projects RM-001 then RM-002. Sample availability changes: schema review becomes active before the now-blocked sample check. No important historical conclusion changes.",
+    "evidence": [
+      "Explicit synthetic planning memo; no completed work claimed."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "Existing Current projects RM-001 then RM-002. Sample availability changes: schema review becomes active before the now-blocked sample check. No important historical conclusion changes."
+  },
+  {
+    "id": "08-correction",
+    "title": "Correct a captured title typo",
+    "packet_id": "teaching-08-correction",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "The accepted single-item parser milestone title mistakenly says singel. Its claim and acceptance evidence were always single-item parsing.",
+    "evidence": [
+      "Original observed report already says single-item. Discovery is a recording-error correction, not changed understanding."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "The accepted single-item parser milestone title mistakenly says singel. Its claim and acceptance evidence were always single-item parsing."
+  },
+  {
+    "id": "09-late-evidence",
+    "title": "Attach a retained report to an earlier event",
+    "packet_id": "teaching-09-late-evidence",
+    "producer": "investigator",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "A prior unlinked event truthfully recorded the whitespace check. The original report existed at event occurrence but was not attached. Capture it now and attach its evidence ID without changing the claim.",
+    "evidence": [
+      "Exact retained original report with original observation instant; capture time is later and is not substituted for occurrence."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "A prior unlinked event truthfully recorded the whitespace check. The original report existed at event occurrence but was not attached. Capture it now and attach its evidence ID without changing the claim."
+  },
+  {
+    "id": "10-code-change",
+    "title": "Bounded unattended batch handoff accepted with exact patch",
+    "packet_id": "teaching-10-code-change",
+    "producer": "other-agent-framework",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "The teaching importer was previously usable only with manual screening of empty queued jobs. The owner explicitly requires a bounded unattended handoff: run the actual CLI across the complete declared queue [\"1,2\", \"\", \"3\"], preserve job order and output exactly [[1,2],[],[3]] without manual intervention. The old CLI fails this handoff; the new source passes the whole declared queue. The owner now accepts that bounded operating mode, changing the project from manually screened demonstration to unattended processing of its specified fixture workload.",
+    "evidence": [
+      "Execute the actual base and target toy CLI for every job in the declared queue, retain both observed result matrices and the acceptance instant after all target outputs match. Capture the exact Git diff and immutable revision IDs. No claim beyond this specified toy workload or production readiness."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "The teaching importer was previously usable only with manual screening of empty queued jobs. The owner explicitly requires a bounded unattended handoff: run the actual CLI across the complete declared queue [\"1,2\", \"\", \"3\"], preserve job order and output exactly [[1,2],[],[3]] without manual intervention. The old CLI fails this handoff; the new source passes the whole declared queue. The owner now accepts that bounded operating mode, changing the project from manually screened demonstration to unattended processing of its specified fixture workload."
+  },
+  {
+    "id": "11-duplicate-replay",
+    "title": "Replay already published packet",
+    "packet_id": "teaching-11-duplicate-replay",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "A subordinate packet has an author disposition and a consistent successful publication receipt. No evidence, context or significance changed.",
+    "evidence": [
+      "Retained exact prior bundle and receipt; stable packet ID unchanged."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "A subordinate packet has an author disposition and a consistent successful publication receipt. No evidence, context or significance changed."
+  },
+  {
+    "id": "12-accumulated",
+    "title": "Three subordinate results establish one capability",
+    "packet_id": "teaching-12-accumulated",
+    "producer": "other-agent-framework",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "Three individually subordinate checks (whitespace, conversion, batch composition) already have event dispositions and receipts. A new aggregate acceptance packet now demonstrates end-to-end conversion of spaced tokens into a numeric batch under explicit owner criteria.",
+    "evidence": [
+      "Three retained original check reports plus a newly observed integrated check; new aggregate packet lists each prior disposition as contributor."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "Three individually subordinate checks (whitespace, conversion, batch composition) already have event dispositions and receipts. A new aggregate acceptance packet now demonstrates end-to-end conversion of spaced tokens into a numeric batch under explicit owner criteria."
+  },
+  {
+    "id": "13-pending",
+    "title": "Authorized but not yet published",
+    "packet_id": "teaching-13-pending",
+    "producer": "human",
+    "project": "Synthetic bounded token-import teaching project; no real product acceptance",
+    "context": "A reviewed subordinate event proposal has an author disposition, no attempt or receipt, and unchanged live baseline. Its work packet is replayed.",
+    "evidence": [
+      "Exact approved proposal and prior authorization; absence of receipt is not success."
+    ],
+    "authority": {
+      "actor": "example-owner",
+      "scope": "Explicit teaching-project criteria only; curator is read-only"
+    },
+    "new_information": "A reviewed subordinate event proposal has an author disposition, no attempt or receipt, and unchanged live baseline. Its work packet is replayed."
+  }
+]

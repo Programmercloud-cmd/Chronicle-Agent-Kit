@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: other_framework.
+Developer submitted retry bookkeeping; independent critic ACCEPT applies only to local retry bookkeeping correctness. Integration is not attempted and no user capability or project gate is accepted. Retain this new scoped review result for traceability.
+Acceptance scope: No project-level acceptance is asserted.

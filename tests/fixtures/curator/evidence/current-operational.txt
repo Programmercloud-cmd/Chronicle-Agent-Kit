@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+Project coordinator confirms access credential delivery is delayed; investigation switches temporarily to fixture cleanup. No architectural choice or acceptance gate changed. The active roadmap study must be marked blocked.
+Acceptance scope: No project-level acceptance is asserted.

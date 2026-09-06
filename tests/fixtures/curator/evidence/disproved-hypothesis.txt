@@ -1,0 +1,5 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: investigator.
+Controlled study with predeclared workload disproves the assumed 512 MiB feasibility bound; reproducible working set is 1.8 GiB. Owner accepts the negative feasibility conclusion. Prior baseline only described dense retrieval as provisional, never asserted memory feasibility. No alternative approach has been chosen.
+Acceptance scope: Negative feasibility conclusion accepted; no replacement or gate acceptance.
+The coordinator confirms the working memory-feasibility hypothesis is now disproved, and next work becomes investigating alternatives. This is an operational hypothesis/work update under MS-BASE, not selection or acceptance of a replacement.

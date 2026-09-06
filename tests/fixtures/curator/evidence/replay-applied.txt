@@ -1,0 +1,4 @@
+SYNTHETIC TEST SOURCE — not evidence of real project progress.
+Source role: human.
+The original acceptance source is resubmitted without substantive changes. Prior disposition DSP-APPLIED and its complete successful receipt have been checked; claim/scope match the already accepted MS-OFFLINE.
+Acceptance scope: Same previously accepted offline scope.
